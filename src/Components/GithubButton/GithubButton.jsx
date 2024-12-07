@@ -11,7 +11,7 @@ const GithubButton = () => {
           window.open("https://github.com/krishna952832", "_blank")
         }
       >
-        <p className="title">Oranic Hub</p>
+        <p className="title">Organic Hub</p>
         <img src={require("../../Assets/likeemoji.png")} alt="like emoji" />
         <p className="description"></p>
       </button>

@@ -6,9 +6,9 @@ import "./About.css";
 
 const About = () => {
   const visitInstagram = () => {
-    window.location = "https://instagram.com/";
+    window.location = "https://instagram.com";
   };
-  document.title = "About Us";     
+  document.title = "About Us";
   return (
     <>
       <Header />
@@ -21,16 +21,20 @@ const About = () => {
         <div className="about-section-box">
           <div>
             <div>
-              <img
+              {/* <img
                 style={{ width: "15rem", height: "15rem", margin: "2rem 0" }}
-                src="https://res.cloudinary.com/dmcm71zbt/image/upload/v1670126233/avatar/profile-pic_1_tozinc.png"
+                src=""
                 alt="Founder"
-              />
-              <h1>Krishna</h1>
-              <button onClick={visitInstagram}>Visit Instagram</button>
+              /> */}
+              <h1>Organic Hub</h1>
+              {/* <button onClick={visitInstagram}>Visit Instagram</button> */}
               <br />
-              <p>
-                Major project
+              <p size="10px">
+                This is a sample Project made by <br />
+                krishna kumar <br />
+                shri ram vishwakarma <br />
+                huzaifa asif <br />
+                love badgoti
               </p>
             </div>
           </div>

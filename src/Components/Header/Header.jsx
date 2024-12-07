@@ -112,6 +112,7 @@ const Header = () => {
           <Link to="/products">Products</Link>
           <Link to="/reviews/all">Reviews</Link>
           <Link to="/about">About Us</Link>
+
         </nav>
         <div className="navbar-icons">
           <div id="menu-btn" onClick={toggleNavbar}>

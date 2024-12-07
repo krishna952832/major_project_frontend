@@ -72,7 +72,7 @@ const Footer = () => {
                 <i>
                   <RiMapPin2Line />
                 </i>
-                Bhopal , India -462036
+                Bhopal, India - 462036
               </Link>
             </div>
 
